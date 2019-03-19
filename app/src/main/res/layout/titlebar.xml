@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="45dip"
+	android:gravity="center_vertical" >
+	<ImageView
+		android:id="@+id/title_icon"
+		android:src="@drawable/rrm_mp3icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip" />
+	<TextView
+		android:id="@+id/title_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/app_name"
+		android:textSize="20dip"
+		android:textColor="#ffffffff"
+		android:paddingLeft="5dip" />
+</LinearLayout>

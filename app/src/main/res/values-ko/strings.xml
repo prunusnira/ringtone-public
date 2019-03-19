@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eris Ringtone Randomizer</string>
+
+    <!-- Activity Title -->
+    <string name="activity_runner">랜덤 실행</string>
+    <string name="activity_ringlist">벨소리 목록</string>
+    <string name="activity_notilist">알림음 목록</string>
+    <string name="activity_explorer">음악 탐색기</string>
+    <string name="activity_musiclist">전체 음악</string>
+    <string name="activity_setting">설정</string>
+    <string name="activity_about">어플 정보</string>
+    <string name="activity_copyright">저작권</string>
+    <string name="activity_patch">패치 노트</string>
+    <string name="activity_blog">블로그</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">검색</string>
+    <string name="action_settings">설정</string>
+    <string name="access_ringtone">Ringtone Randomizer</string>
+    <string name="access_noti">Notification Sound Randomizer</string>
+    <string name="move_url">"http://roxyeris.egloos.com/89137"</string>
+
+    <!-- activity MainRunner -->
+    <string name="sw_ring_off">Touch to start</string>
+    <string name="sw_noti_off">Touch to start</string>
+    <string name="sw_ring_on">Touch to stop</string>
+    <string name="sw_noti_on">Touch to stop</string>
+    <string name="sw_ring_title">
+"Ringtone
+Randomizer"</string>
+    <string name="sw_noti_title">
+"Notification
+Randomizer"</string>
+    <string name="main_inst_title">간단한 사용 설명서</string>
+    <string name="main_instruction">
+"1. 왼쪽 위의 메뉴를 누릅니다
+2. '음악 탐색기'나 '전체 음악' 메뉴를 선택합니다
+3. 벨소리나 알림음으로 사용하고자 하는 음악을 추가합니다
+4. 이 페이지로 돌아와서 스위치를 누릅니다
+5. 전화를 걸거나 문자를 보내어 랜덤 동작을 확인해보세요"
+    </string>
+    <string name="main_instruction2">
+"★ 주의: 외장 SD카드 지원은 모든 디바이스에서 지원되는 기능은 아닙니다
+★ SD카드나 내장 메모리 보다 상위의 경로를 탐색하는 것은 매우 위험합니다! 앱이 정상적으로 동작하지 않을 수도 있습니다."
+    </string>
+    <string name="main_instruction3">
+"* 외장 SD카드를 사용하는 방법
+1. '음악 탐색기'를 엽니다
+2. 기본 위치에서 상위 폴더로 이동합니다.
+3. extsd 폴더를 선택합니다 (이는 디바이스마다 다릅니다. 앱이 튕길수도 있지만 이는 해당 폴더가 존재하지 않아서 입니다. 주의해주세요)
+4. 음악을 선택합니다.
+
+* 상세한 설명서는 블로그를 참고하세요"
+    </string>
+    <string name="nolistfile_title">랜덤 동작을 시작할 수 없습니다</string>
+    <string name="nolistfile_msg">랜덤에 사용될 파일이 등록되지 않았습니다. 리스트를 확인해보세요</string>
+
+    <!-- List Activity etc -->
+    <string name="nolist">"리스트에 데이터가 없습니다"</string>
+    <string name="noring">"벨소리 랜덤 서비스를 시작하는 중 오류가 발생했습니다"</string>
+    <string name="nonoti">"알림음 랜덤 서비스를 시작하는 중 오류가 발생했습니다"</string>
+    <string name="firstuser">"
+벨소리/알림음로 사용할 데이터가 아직 없습니다.
+'음악 탐색기'나 '전체 음악'을 눌러서 파일을 추가하세요.
+
+사용가능한 파일 확장자 : mp3, wav, ogg, flac"</string>
+
+    <!-- Dialog Message -->
+    <string name="m_play">재생</string>
+    <string name="m_add">추가</string>
+    <string name="m_del">삭제</string>
+    <string name="m_cancel">취소</string>
+    <string name="m_msg">작업 선택</string>
+    <string name="m_which">유형 선택</string>
+    <string name="m_ring">벨소리</string>
+    <string name="m_noti">알림음</string>
+
+    <!-- ETC -->
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="nopermission">"접근 권한이 없습니다"</string>
+    <string name="auto1">Eris Ringtone Manager: 작동 시작\n벨소리/알림음 모두 동작</string>
+    <string name="auto2">Eris Ringtone Manager: 작동 시작\n벨소리 동작</string>
+    <string name="auto3">Eris Ringtone Manager: 작동 시작\n알림음 동작</string>
+
+    <!-- FileExplorer & list -->
+    <string name="current">"현재 폴더"</string>
+    <string name="select">"현재 위치의 모든 파일 얻기"</string>
+    <string name="addlistmp3">내장 메모리 내의 모든 파일 추가</string>
+    <string name="search">파일 이름으로 검색</string>
+    <string name="upper">"==상위 폴더=="</string>
+    <string name="madd1">"총 "</string>
+    <string name="madd2">" 곡이 추가되었습니다"</string>
+    <string name="addallreal">"정말 모든 파일을 추가 하시겠습니까?\n(파일이 많은 경우 시간 좀 걸립니다)"</string>
+    <string name="addlistreal">"현재 리스트의 모든 파일을 추가 하시겠습니까?\n(파일이 많은 경우 시간 좀 걸립니다)"</string>
+    <string name="btn_fileadded">"음악이 리스트에 추가되었습니다"</string>
+
+    <!-- ETC2 -->
+    <string name="preview">미리 듣기</string>
+    <string name="delete">삭제</string>
+    <string name="deleteall">전체 삭제</string>
+    <string name="sure">등록된 모든 파일이 목록에서 삭제됩니다. 진행 하시겠습니까?</string>
+    <string name="delsure">파일이 목록에서 지워집니다. 진행 하시겠습니까?</string>
+
+    <!-- Message -->
+	<string name="nofile">"파일이 없습니다."</string>
+	<string name="notrunning">"현재 동작 중이 아닙니다."</string>
+	<string name="finish">"동작을 멈춥니다. 마지막으로 지정된 소리를 사용합니다."</string>
+	<string name="r_ch">"벨소리가 변경되었습니다."</string>
+	<string name="n_ch">"알림음이 변경되었습니다."</string>
+	<string name="current_ring">""</string>
+	
+	<!-- SettingFragment -->
+	<string name="set_startup">자동시작 설정</string>
+	<string name="set_startup_title">자동시작</string>
+	<string name="set_startup_summary">"부팅 시 자동 시작 타입을 선택하세요 (기본: 벨소리만)"</string>
+	<string name="set_radio_none">사용 안함</string>
+	<string name="set_radio_both">벨소리+알림음</string>
+	<string name="set_radio_ring">벨소리만</string>
+	<string name="set_radio_noti">알림음만</string>
+
+    <!-- Auto-start -->
+	<string name="autotype0">0</string>
+	<string name="autotype1">1</string>
+	<string name="autotype2">2</string>
+	<string name="autotype3">3</string>
+	
+	<string name="about">
+"Eris Ringtone Manager 3
+만든이 Arin
+
+문의
+roxyeris@gmail.com
+arincblossom.wordpress.com
+트위터 @prunusArin
+
+© 2012-2016 Arin
+since Jan 16, 2012
+
+뒤로가기를 누르면 되돌아갑니다."
+</string>
+
+	<string name="ver">
+"3.0.0 beta2 (Jan 18.2016)
+
+1. 외부 SD카드를 사용할 수 없었던 문제 수정
+2. '전체 음악' 항목의 검색 UI를 변경하였습니다
+3. 아이콘을 변경했습니다
+
+--- 계획 ---
+1. 번역 수정
+2. 순차적 벨소리 변환 기능 추가"
+</string>
+
+<string name="copyright">
+"(변경 준비 중)"
+</string>
+</resources>

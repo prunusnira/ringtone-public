@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eris Ringtone Randomizer</string>
+
+    <!-- Activity Title -->
+    <string name="activity_runner">ランダム実行</string>
+    <string name="activity_ringlist">着信音リスト</string>
+    <string name="activity_notilist">通知音リスト</string>
+    <string name="activity_explorer">音楽エクスプローラー</string>
+    <string name="activity_musiclist">音楽リスト</string>
+    <string name="activity_setting">設定</string>
+    <string name="activity_about">アプリ情報</string>
+    <string name="activity_copyright">コピーライト</string>
+    <string name="activity_patch">パッチノート</string>
+    <string name="activity_blog">ブログ</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">検索</string>
+    <string name="action_settings">設定</string>
+    <string name="access_ringtone">Ringtone Randomizer</string>
+    <string name="access_noti">Notification Sound Randomizer</string>
+    <string name="move_url">"http://teamrx.blogspot.com/2012/06/rx-ringtone-manager-jp.html"</string>
+
+    <!-- activity MainRunner -->
+    <string name="sw_ring_off">Touch to start</string>
+    <string name="sw_noti_off">Touch to start</string>
+    <string name="sw_ring_on">Touch to stop</string>
+    <string name="sw_noti_on">Touch to stop</string>
+    <string name="sw_ring_title">
+"Ringtone
+Randomizer"</string>
+    <string name="sw_noti_title">
+"Notification
+Randomizer"</string>
+    <string name="main_inst_title">簡単な説明書</string>
+    <string name="main_instruction">
+"1. 左上の方のメニューを選択します
+2. 「音楽エクスプローラー」や「音楽リスト」を選択します
+3. いくつのファイルを追加します
+4. このページに戻ってスイッチをタッチ！
+5. 電話やメッセージでランダム動作をチェク！"
+    </string>
+    <string name="main_instruction2">
+"★ 警告: SDカードはすべてのデバイスでは支援されていません
+★ ROOTフォルダの探索はとても危険です！ぜひ気をつけてください！！"
+    </string>
+    <string name="main_instruction3">
+"* 外部のSDカードの使い方
+1. 「音楽エクスプローラー」を開けます
+2. 基本位置から上位のフォルダに移動します
+3. extsdフォルダを選択します (これはデバイスによって違います。アプリがクラッシュする可能性もありますがそれはそのフォルダが存在しないことです。ご注意してください。)
+4. 音楽を選択してください
+
+* ディテールな説明書はブログにあります"
+    </string>
+    <string name="nolistfile_title">ランダムの起動ができません</string>
+    <string name="nolistfile_msg">ファイルがリストへありません.チェクして下さい.</string>
+
+    <!-- List Activity etc -->
+    <string name="nolist">"リストにデータがありません"</string>
+    <string name="noring">"着信音のランダムを始まる途中エーラが発生しました"</string>
+    <string name="nonoti">"通知音のランダムを始まる途中エーラが発生しました"</string>
+    <string name="firstuser">"
+まだデータが登録されてありません
+「音楽エクスプローラー」や「音楽リスト」からファイルを追加してください
+
+Available extentions : mp3, wav, ogg, flac"</string>
+
+    <!-- Dialog Message -->
+    <string name="m_play">再生</string>
+    <string name="m_add">追加</string>
+    <string name="m_del">削除</string>
+    <string name="m_cancel">キャンセル</string>
+    <string name="m_msg">作業選択</string>
+    <string name="m_which">類型選択</string>
+    <string name="m_ring">着信音</string>
+    <string name="m_noti">通知音</string>
+
+    <!-- ETC -->
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="nopermission">"接近権限がありません"</string>
+    <string name="auto1">Eris Ringtone Manager: 作動スタート\n着信音/通知音</string>
+    <string name="auto2">Eris Ringtone Manager: 作動スタート\n着信音のみ</string>
+    <string name="auto3">Eris Ringtone Manager: 作動スタート\n通知音のみ</string>
+
+    <!-- FileExplorer & list -->
+    <string name="current">"現在の位置"</string>
+    <string name="select">"現在位置の全ファイル追加"</string>
+    <string name="addlistmp3">デバイス内部のぜんファイル追加</string>
+    <string name="search">ファイル名で検索</string>
+    <string name="upper">"==上位フォルダ=="</string>
+    <string name="madd1">"全 "</string>
+    <string name="madd2">" 曲が追加しました"</string>
+    <string name="addallreal">"現位置のすべてのファイルを追加しますか？?\n(数が多くと時間がけっこうかかります)"</string>
+    <string name="addlistreal">"現在のリストのすべてのファイルを追加しますか?\n(数が多くと時間がけっこうかかります)"</string>
+    <string name="btn_fileadded">"曲が登録されました"</string>
+
+    <!-- ETC2 -->
+    <string name="preview">プレビュー</string>
+    <string name="delete">削除</string>
+    <string name="deleteall">全部削除</string>
+    <string name="sure">すべてのファイルが削除されます.よろしいですか?</string>
+    <string name="delsure">ファイルが削除されます.よろしいですか?</string>
+
+    <!-- Message -->
+    <string name="nofile">"ファイルがありません"</string>
+    <string name="notrunning">"現在、動作していません"</string>
+    <string name="finish">"動作を止まります.着信音は最後の曲になります"</string>
+    <string name="r_ch">"着信音が変更しました"</string>
+    <string name="n_ch">"通知音が変更しました"</string>
+    <string name="current_ring">""</string>
+
+    <!-- SettingFragment -->
+    <string name="set_startup">自動スタート設定</string>
+    <string name="set_startup_title">自動スタート</string>
+    <string name="set_startup_summary">"自動スタートのタイプを選択してください (基本: 着信音のみ)"</string>
+    <string name="set_radio_none">使用しない</string>
+    <string name="set_radio_both">着信音＋通知音</string>
+    <string name="set_radio_ring">着信音のみ</string>
+    <string name="set_radio_noti">通知音のみ</string>
+
+    <!-- Auto-start -->
+    <string name="autotype0">0</string>
+    <string name="autotype1">1</string>
+    <string name="autotype2">2</string>
+    <string name="autotype3">3</string>
+	
+	<string name="about">
+"Eris Ringtone Manager 3
+by Arin
+
+Contact
+roxyeris@gmail.com
+arincblossom.wordpress.com
+ツイーター @prunusArin
+
+© 2012-2016 Arin
+since Jan 16, 2012
+
+戻るボタンで消します"
+</string>
+
+	<string name="ver">
+"3.0.0 beta2 (Jan 18.2016)
+
+1. 外部のSDカードを使えなかった問題を修正
+2. 「音楽リスト」の検索UIを更新しました
+3. アイコンを更新しました
+
+--- 計画 ---
+1. 和訳の修正(日本語を勉強しましたT_T)
+2. 順次に着信音を変える機能の追加"
+</string>
+
+<string name="copyright">
+"(準備中)"
+</string>
+</resources>

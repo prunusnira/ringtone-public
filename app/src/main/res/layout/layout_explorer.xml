@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+		<TextView
+		    android:textSize="20sp"
+		    android:textColor="@android:color/black"
+		    android:id="@+id/current"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/foldericon"
+		    android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/upper2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/select"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_add"
+                android:text="@string/select" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emptyview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nofile" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/list_files"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:divider="#00000000"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="false" >
+    </ListView>
+
+</LinearLayout>

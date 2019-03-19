@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="pref_root" >
+    <PreferenceCategory
+        android:key="set_startup"
+		android:title="@string/set_startup"
+		android:summary=""
+        android:enabled="true" >  
+		<ListPreference
+		    android:key="startup_onoff1"
+		    android:title="@string/set_startup_title"
+		    android:summary="@string/set_startup_summary"
+		    android:entries="@array/autoset"
+		    android:entryValues="@array/autosetv"
+		    android:defaultValue="2"/>
+	</PreferenceCategory>
+</PreferenceScreen>

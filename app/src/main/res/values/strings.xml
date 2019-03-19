@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eris Ringtone Randomizer</string>
+
+    <!-- Activity Title -->
+    <string name="activity_runner">Randomize</string>
+    <string name="activity_ringlist">Ringtone List</string>
+    <string name="activity_notilist">Notify List</string>
+    <string name="activity_explorer">Music Explorer</string>
+    <string name="activity_musiclist">All Music</string>
+    <string name="activity_setting">Setting</string>
+    <string name="activity_about">About</string>
+    <string name="activity_copyright">Copyright</string>
+    <string name="activity_patch">Patch Note</string>
+    <string name="activity_blog">Blog</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Setting</string>
+    <string name="access_ringtone">Ringtone Randomizer</string>
+    <string name="access_noti">Notification Sound Randomizer</string>
+    <string name="move_url">"http://teamrx.blogspot.com/p/team-rx.html"</string>
+
+    <!-- activity MainRunner -->
+    <string name="sw_ring_off">Touch to start</string>
+    <string name="sw_noti_off">Touch to start</string>
+    <string name="sw_ring_on">Touch to stop</string>
+    <string name="sw_noti_on">Touch to stop</string>
+    <string name="sw_ring_title">
+"Ringtone
+Randomizer"</string>
+    <string name="sw_noti_title">
+"Notification
+Randomizer"</string>
+    <string name="main_inst_title">Simple Instruction</string>
+    <string name="main_instruction">
+"1. Go to menu on top-left
+2. Select 'File Explorer' or 'All Music'
+3. Explore and add some music that will be used as ringtone or notification sound
+4. Come back here and touch switch
+5. Enjoy your random ringtones"
+    </string>
+    <string name="main_instruction2">
+"★ PLEASE NOTE that SD card support is NOT for all devices
+★ Accessing ROOT FOLDER is very DANGEROUS. Please be advised!"
+    </string>
+    <string name="main_instruction3">
+"* To use external SD card
+1. Go to 'File Explorer'
+2. Move to upper folder from default position
+3. Select extsd folder (It can be differ to device. If app crashes, it means that folder is not really exist. Please be careful.)
+4. Select music
+
+* For detailed information, check blog"
+    </string>
+    <string name="nolistfile_title">"Can't start randomize"</string>
+    <string name="nolistfile_msg">"You don't have any music file in your list. Please check the list."</string>
+
+    <!-- List Activity etc -->
+    <string name="nolist">"There's no data in ringtone list"</string>
+    <string name="noring">"Error occurred when starting RINGTONE random service"</string>
+    <string name="nonoti">"Error occurred when starting NOTIFICATION sound random service"</string>
+    <string name="firstuser">"
+No data found.
+Please add sound files from 'File Explorer' or 'All Files'
+
+Supported Extensions : mp3, wav, ogg, flac"</string>
+
+    <!-- Dialog Message -->
+    <string name="m_play">Play</string>
+    <string name="m_add">Add</string>
+    <string name="m_del">Delete</string>
+    <string name="m_cancel">Cancel</string>
+    <string name="m_msg">Select work</string>
+    <string name="m_which">Select type of tone</string>
+    <string name="m_ring">Ringtone</string>
+    <string name="m_noti">Notification</string>
+
+    <!-- ETC -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="nopermission">"You have no permission to access here"</string>
+    <string name="auto1">Eris Ringtone Manager: Start to work.\nBoth ringtone and notification</string>
+    <string name="auto2">Eris Ringtone Manager: Start to work.\nRingtone only</string>
+    <string name="auto3">Eris Ringtone Manager: Start to work.\nNotification only</string>
+
+	<!-- FileExplorer & list -->
+	<string name="current">"Current Folder"</string>
+	<string name="select">"Get all files in this Folder"</string>
+    <string name="addlistmp3">Add all files in internal storage</string>
+    <string name="search">Search with file name</string>
+	<string name="upper">"==Upper Folder=="</string>
+	<string name="madd1">"Total "</string>
+	<string name="madd2">" songs are added"</string>
+    <string name="addallreal">"Are you sure to add all files in sdcard?\n(If you have lots of file, it will take time)"</string>
+    <string name="addlistreal">"Are you sure to add all listed files?\n(If you have lots of file, it will take time)"</string>
+    <string name="btn_fileadded">"Music is added to list"</string>
+
+    <!-- ETC2 -->
+    <string name="preview">Preview</string>
+    <string name="delete">Delete</string>
+    <string name="deleteall">Delete all items</string>
+    <string name="sure">All registered files will be deleted from the list. Are you sure?</string>
+    <string name="delsure">File will be removed from the list. Are you sure?</string>
+	
+	<!-- Message -->
+	<string name="nofile">"There are no file found"</string>
+	<string name="notrunning">"Not currently running"</string>
+	<string name="finish">"Job Stopped, Ringtone is set as last tone"</string>
+	<string name="r_ch">"Ringtone is changed"</string>
+	<string name="n_ch">"Notification Sound is changed"</string>
+	<string name="current_ring">Current Ring: </string>
+	
+	<!-- SettingFragment -->
+	<string name="set_startup">Auto Startup Setting</string>
+	<string name="set_startup_title">Auto Start</string>
+	<string name="set_startup_summary">"Select Auto-start Type (Default: Ringtone Only)"</string>
+	<string name="set_radio_none">None</string>
+	<string name="set_radio_both">Ringtone+Notification</string>
+	<string name="set_radio_ring">Ringtone Only</string>
+	<string name="set_radio_noti">Notification Only</string>
+
+    <!-- Auto-start -->
+	<string name="autotype0">0</string>
+	<string name="autotype1">1</string>
+	<string name="autotype2">2</string>
+	<string name="autotype3">3</string>
+	
+	<string name="about">
+"Eris Ringtone Randomizer 3
+Produced by Arin
+
+Contact
+roxyeris@gmail.com
+arincblossom.wordpress.com
+Twitter @prunusArin
+
+© 2012-2016 Arin
+since Jan 16, 2012
+
+Press Back button to return"</string>
+	<string name="ver">
+"3.0.0 beta2 (Jan 18.2016)
+
+1. External SD card support problem fixed
+2. Changed search UI of 'All Files'
+3. Icons changed
+
+--- Plans ---
+1. Translation fix
+2. Sequential ringtone change feature"
+</string>
+
+<string name="copyright">
+"(Getting ready)"
+</string>
+
+</resources>

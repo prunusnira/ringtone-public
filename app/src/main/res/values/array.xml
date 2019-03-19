@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="autoset">
+        <item>@string/set_radio_none</item>
+        <item>@string/set_radio_both</item>
+        <item>@string/set_radio_ring</item>
+        <item>@string/set_radio_noti</item>
+    </string-array>
+    <string-array name="autosetv">
+        <item>@string/autotype0</item>
+        <item>@string/autotype1</item>
+        <item>@string/autotype2</item>
+        <item>@string/autotype3</item>
+    </string-array>
+
+</resources>
